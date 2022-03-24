@@ -1,4 +1,5 @@
 # Bilderbazaar
+![Bilderbazaar](https://github.com/wooolfy/Bilderbazaar/blob/main/pic/bazaar.png)
 Bilderbazaar - A Pix2Pix practical example for crawling scanned Articles to extract Metadata and Visual Information with Image-to-Image Translation
 
 
@@ -11,6 +12,12 @@ NVIDIA GPU + CUDA CuDNN
 Python 3.6 
 (it is recommendet to clone the pix2pix github first and install the Environment from the included yaml configuration file)
 Related Python Packages:
+pytorch torchvision cudatoolkit=11.3 
+numpy 
+matplotlib
+opencv
+pymatting
+
 
 
 # Start of this Project(History)
