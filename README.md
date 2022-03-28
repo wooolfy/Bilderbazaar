@@ -46,11 +46,11 @@ Solution: Picture to Picture tranlation
 
 # Second Iteration of using a Neural Net to extract Foreground Images based on reference Pictures of before/after states
 
-Theory: Pix2Pix is used to do complicated Image to Image translations based on training different Neural Nets at the same time (See paper).
+Pix2Pix is an image-to-image translation Generative Adversarial Networks that learns a mapping from an image X and a random noise Z to output image Y or in simple language it learns to translate the source image into a different distribution of image.
 
-Gan....
+![Unet](https://github.com/wooolfy/Bilderbazaar/blob/main/pic/unet.png)
 
-loss function....
+
 
 Example from pix2pix : Google Streetview to Satellite Pictures
 
