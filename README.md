@@ -53,6 +53,6 @@ Pix2Pix is an image-to-image translation Generative Adversarial Networks that le
 
 
 Example video of the Image to Image translation in action:
-![Pix2Pix Transformation](https://github.com/wooolfy/Bilderbazaar/blob/main/pic/pix2pix.mp4)
+![Pix2Pix Transformation](https://github.com/wooolfy/Bilderbazaar/blob/main/pic/pix2pix.gif)
 
 
