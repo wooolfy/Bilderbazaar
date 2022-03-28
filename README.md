@@ -52,6 +52,7 @@ Pix2Pix is an image-to-image translation Generative Adversarial Networks that le
 
 
 
-Example from pix2pix : Google Streetview to Satellite Pictures
+Example video of the Image to Image translation in action:
+![Pix2Pix Transformation](https://github.com/wooolfy/Bilderbazaar/blob/main/pic/pix2pix.mp4)
 
 
