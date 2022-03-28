@@ -32,8 +32,7 @@ The first Idea to extract separated images from the different Pages of the magaz
 
 First tests with DeepLabV3-ResNet101/Resnet50 ( see colab playbook: https://colab.research.google.com/github/eugenesiow/practical-ml/blob/master/notebooks/Remove_Image_Background_DeepLabV3.ipynb)
 
-Source: Rembg
-https://github.com/danielgatis/rembg
+
 Picture
 
 Input
@@ -41,7 +40,7 @@ Input
 Output  
 
 
-Conclusion: Failed to deliver 
+Conclusion: Failed to deliver good results. Pictures get lost in the process
 Solution: Picture to Picture tranlation
 
 # Second Iteration of using a Neural Net to extract Foreground Images based on reference Pictures of before/after states
@@ -56,3 +55,8 @@ Example video of the Image to Image translation in action:
 ![Pix2Pix Transformation](https://github.com/wooolfy/Bilderbazaar/blob/main/pic/pix2pix.gif)
 
 
+Download the example and try it out for yourself:
+https://drive.google.com/file/d/1l7WfkSisrssV3XPAxEhw0UYmjO1HTodh/view?usp=sharing
+
+Reference for Pix2Pix on Github:
+https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
