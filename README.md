@@ -32,13 +32,7 @@ The first Idea to extract separated images from the different Pages of the magaz
 
 First tests with DeepLabV3-ResNet101/Resnet50 ( see colab playbook: https://colab.research.google.com/github/eugenesiow/practical-ml/blob/master/notebooks/Remove_Image_Background_DeepLabV3.ipynb)
 
-
-Picture
-
-Input
-
-Output  
-
+The results are "lacking" at best.
 
 Conclusion: Failed to deliver good results. Pictures get lost in the process
 Solution: Picture to Picture tranlation
@@ -49,7 +43,9 @@ Pix2Pix is an image-to-image translation Generative Adversarial Networks that le
 
 ![Unet](https://github.com/wooolfy/Bilderbazaar/blob/main/pic/unet.png)
 
+There are many semantic segmentation algorithms such as U-net, Mask R-CNN, Feature Pyramid Network (FPN), etc. In this guide, we will mainly focus on U-net which is one of the most well-recogonized image segmentation algorithms and many of the ideas are shared among other algorithms.
 
+U-net was originally invented and first used for biomedical image segmentation. Its architecture can be broadly thought of as an encoder network followed by a decoder network. Unlike classification where the end result of the the deep network is the only important thing, semantic segmentation not only requires discrimination at pixel level but also a mechanism to project the discriminative features learnt at different stages of the encoder onto the pixel space.
 
 Example video of the Image to Image translation in action:
 ![Pix2Pix Transformation](https://github.com/wooolfy/Bilderbazaar/blob/main/pic/pix2pix.gif)
